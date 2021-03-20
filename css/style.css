@@ -875,12 +875,11 @@ a {
           border-radius: 50%;
           color: #394242; }
 
-#loader img {
-  width: 250px;
-  height: 250px;
+#loader {
   position: absolute;
-  left: 520px;
-  top: 190px; }
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
 
 #myDiv {
   display: none;

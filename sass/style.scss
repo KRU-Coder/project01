@@ -1125,13 +1125,10 @@ a{
 }
 // ..loder..
 #loader {
-    img{
-        width: 250px;
-        height: 250px;
-        position: absolute;
-        left: 520px;
-        top: 190px;
-    }
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     } 
   #myDiv {
     display: none;
